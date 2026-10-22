@@ -1,0 +1,27 @@
+name: emax
+description: Emax English learning app, implemented from the Pixso reference.
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: ^3.11.4
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.9
+  shared_preferences: ^2.5.6
+  flutter_tts: ^4.2.5
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_driver:
+    sdk: flutter
+  test: any
+  flutter_lints: ^6.0.0
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+  fonts:
+    - family: Nunito
+      fonts:
+        - asset: assets/fonts/Nunito.ttf
